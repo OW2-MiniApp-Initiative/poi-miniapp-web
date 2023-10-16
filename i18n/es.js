@@ -64,5 +64,5 @@ module.exports = {
         not_found: 'No encontré la página que buscas'
     },
     attributions: 'Foto de fondo por DALL.E',
-    by: 'Powered by Quick App Initiative',
+    by: 'Powered by MiniApp Initiative',
 }

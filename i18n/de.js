@@ -65,5 +65,5 @@ module.exports = {
         close: 'Schließen',
     },    
     attributions: 'Error cover photo by DALL.E',
-    by: 'Quick App Initiative',
+    by: 'MiniApp Initiative',
 }

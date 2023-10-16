@@ -65,5 +65,5 @@ module.exports = {
         not_found: 'Je ne trouve pas la page que vous avez mentionnée'
     },
     attributions: 'Photo de couverture par DALL.E',
-    by: 'Powered by Quick App Initiative',
+    by: 'Powered by MiniApp Initiative',
 }

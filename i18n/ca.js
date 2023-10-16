@@ -64,5 +64,5 @@ module.exports = {
         not_found: 'No trobo la pàgina',
     },
     attributions: 'Foto de fons: DALL.E',
-    by: 'Powered by Quick App Initiative',
+    by: 'Powered by MiniApp Initiative',
 }

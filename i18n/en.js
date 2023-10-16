@@ -64,5 +64,5 @@ module.exports = {
         not_found: 'I cannot find the page you referred'
     },
     attributions: 'Error cover photo by DALL.E',
-    by: 'Powered by Quick App Initiative',
+    by: 'Powered by MiniApp Initiative',
 }

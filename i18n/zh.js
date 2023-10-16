@@ -64,5 +64,5 @@ module.exports = {
         not_found: '我找不到您引用的页面',
     },
     attributions: 'DALL.E 上的错误封面照片',
-    by: 'Powered by Quick App Initiative',
+    by: 'Powered by MiniApp Initiative',
 }
