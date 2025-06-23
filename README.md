@@ -1,6 +1,6 @@
 # Heritage in… for the Web
 
-This repository contains a web application that is part of the [Heritage In… Quick App project](https://ow2-quick-app-initiative.github.io/poi-quick-app/).
+This repository contains a web application that is part of the [Heritage In… Quick App project](https://github.com/OW2-MiniApp-Initiative/poi-miniapp-implementations/).
 
 > The Heritage In… Quick App project provides a methodology and a set of tools for towns to promote their most precious assets, enabling citizens and institutions to launch new projects focused on local art, culture, history, nature, or whatever is engaging in a place.
 
@@ -27,7 +27,7 @@ Content on this page:
 
 ##  1. <a name='Theapp'></a>The app
 
-This project is a simple web application based on [Fastify](https://www.fastify.io) that uses the outcomes generated through the [Heritage In… Quick App methodology](https://ow2-quick-app-initiative.github.io/poi-quick-app/#Themethodology). This app enables the visualization of the databases that follow the templates provided.
+This project is a simple web application based on [Fastify](https://www.fastify.io) that uses the outcomes generated through the [Heritage In… Quick App methodology](https://github.com/OW2-MiniApp-Initiative/poi-miniapp-implementations/#Themethodology). This app enables the visualization of the databases that follow the templates provided.
 
 The structure of the app is simple. It uses [Embedded JavaScript (EJS)](https://ejs.co/) templating for the view and Fatify routes to serve the content. There are two main routes:
 
@@ -37,12 +37,12 @@ The structure of the app is simple. It uses [Embedded JavaScript (EJS)](https://
 
 ##  2. <a name='Existingimplementations'></a>Existing implementations 
 
-The list of the implementations (available at `/`) is based on the information within the `/data/implementations.json` file. This document is based originally on a public document ([implementations.json](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json)) hosted in the main project´s repository (and publicly available at `https://ow2-quick-app-initiative.github.io/poi-quick-app/implementations.json`) that is updated when a Docker container is built using the default [Dockerfile](./Dockerfile)
+The list of the implementations (available at `/`) is based on the information within the `/data/implementations.json` file. This document is based originally on a public document ([implementations.json](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json)) hosted in the main project´s repository (and publicly available at `https://github.com/OW2-MiniApp-Initiative/poi-miniapp-implementations/implementations.json`) that is updated when a Docker container is built using the default [Dockerfile](./Dockerfile)
 
 The instruction in the Dockerfile is the following.
 
 ```
-ADD https://ow2-quick-app-initiative.github.io/poi-quick-app/implementations.json /usr/src/app/data/
+ADD https://github.com/OW2-MiniApp-Initiative/poi-miniapp-implementations/implementations.json /usr/src/app/data/
 ```
 
 If you have new implementations, please modify the [implementations.json document](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json) and send a pull request to the main repository. 
