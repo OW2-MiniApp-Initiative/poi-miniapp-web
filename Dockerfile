@@ -16,7 +16,7 @@ RUN npm install
 COPY . /usr/src/app
 
 # Updates the latest version of the implementations.json document
-ADD https://ow2-miniapp-initiative.github.io/poi-miniapp/implementations.json /usr/src/app/data/
+ADD https://ow2-miniapp-initiative.github.io/poi-miniapp-implementations/implementations.json /usr/src/app/data/
 
 EXPOSE 3000
 
